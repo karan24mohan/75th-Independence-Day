@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingContainer {
+  width: 540px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5% 0%;
+}
+
+.orangeHeading {
+  color: rgb(255, 153, 51);
+}
+
+.blueHeading {
+  color: rgb(0, 0, 128);
+}
+
+.greenHeading {
+  color: rgb(19, 136, 8);
+}
+
+.orange {
+  width: 540px;
+  height: 120px;
+  background-color: orange;
+}
+
+.white {
+  width: 540px;
+  height: 120px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.white img {
+  width: 120px;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.green {
+  width: 540px;
+  height: 120px;
+  background-color: green;
+}
